@@ -1,4 +1,5 @@
-body, html {
+body {
+  color: #ff8641;
   text-align: center;
   font-family: Gotham, Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -10,9 +11,49 @@ section {
 }
 
 h1 {
+  color: #7b7d70;
   font-size: 2em;
 }
 
 h2 {
+  color: #4eafb8;
   font-size: 1.5em;
+}
+
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) and (max-width: 1200px) {
+
+	body {
+    color: #7b8f8e;
+  }
+
+  h1 {
+    color: #02cbd2;
+    font-size: 2em;
+  }
+  
+  h2 {
+    color: #fcc02a;
+    font-size: 1.5em;
+  }
+
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1201px) {
+
+	body {
+    color: #c19e74;
+  }
+
+  h1 {
+    color: #6e4b61;
+    font-size: 2em;
+  }
+  
+  h2 {
+    color: #cabd61;
+    font-size: 1.5em;
+  }
+
 }
